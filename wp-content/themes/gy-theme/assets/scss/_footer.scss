@@ -1,0 +1,28 @@
+footer{
+    padding: 40px 0px;
+    .menuFooter{
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            gap: 15px;
+            margin: 20px 0px;
+            li{
+                a{
+                    font-size: 22px;
+                    color: #000;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+
+        p{
+            color: #6861ec;
+        }
+    }
+}

@@ -1,0 +1,138 @@
+main{
+
+    section{
+
+        &.headerProject{
+            border-bottom: 1px solid #eee;
+            margin: 0px 0px 40px 0px;
+            padding: 0px 40px;
+
+            @media (max-width:991px){
+                padding: 0;
+            }
+
+            .buttonFilterActive{
+                border: 1px solid #000;
+                width: 150px;
+                justify-content: center;
+                padding: 6px 10px;
+                border-radius: 40px;
+                cursor: pointer;
+                transition: ease-in .4s;
+
+                .icone, .titulo{
+                    color: #6861ec;
+                }
+
+                &:hover{
+                    background-color: #6861ec;
+                    border: 1px solid #fff;
+                    
+                    .icone,.titulo{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &.content{
+
+            #colunagemFiltro{
+                display: none;
+                .rotated {
+                    transform: rotate(180deg);
+                }
+               
+                .boxAllFiltros{
+                    .tituloFiltros{
+                        h1{
+                            font-size: 20px;
+                            font-weight: 300;
+                            color: #000;
+                        }
+                    }
+                    .iconeClose{
+                        cursor: pointer;
+                    }
+                }
+                .filtro{
+                    margin: 50px 0px 10px 0px;
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                }
+                .boxTipoFiltro{
+                    cursor: pointer;
+                    padding: 16px 0px;
+
+                }
+                .tituloFiltro{
+                    
+                    position: relative;
+                    p{
+                        font-weight: 300;
+                        margin-bottom: 0;
+                    }
+
+                }
+                .iconeFiltro{
+                    transition: ease-out .2s;
+                }
+                .conteudoFiltro{
+                    display: none;
+                    padding-top: 20px;
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+
+                        li{
+                            cursor: pointer;
+                            border: 1px solid #eee;
+                            padding: 3px 15px;
+                            border-radius: 20px;
+                            &.active{
+                                background-color: #6861ec;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            #colunagemProd{
+                .boxAll{
+                    box-shadow: 0px 0px 5px 0px rgb(232 232 232 / 75%);
+                    
+                    .imagemCase{
+                        height: 200px;
+                        img{
+                            height: 100%;
+                            object-fit: cover;
+                            width: 100%;
+                            object-position: top;
+                        }
+                    }
+                    .boxInfo{
+                        padding: 10px 20px;
+                        .titulo{
+                            margin: 20px 0px;
+                            h1{
+                                font-size: 21px;
+                                font-weight: 600;
+                                color: #000;
+                            }
+                        }
+                        .resumo{
+                            p{
+                                font-weight: 300;
+                                font-size: 14px;
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

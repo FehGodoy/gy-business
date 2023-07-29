@@ -1,0 +1,48 @@
+main {
+	section {
+		&.page-404 {
+			#oopss {
+				background: linear-gradient(-45deg, #6861ec, #504bb1);
+				position: fixed;
+				left: 0px;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				line-height: 1.5em;
+				z-index: 9999;
+                overflow: auto;
+				#error-text {
+					font-size: 40px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					color: #fff;
+					img {
+						height: auto;
+					}
+					span {
+						position: relative;
+						font-size: 3.3em;
+						font-weight: 900;
+						margin-bottom: 50px;
+					}
+					p.p-a {
+						font-size: 19px;
+						margin: 30px 0 15px 0;
+						text-align: center;
+					}
+					.back {
+						background: #fff;
+						color: #6861ec;
+						font-size: 24px;
+						text-decoration: none;
+						padding: 0.7em 2em;
+						border-radius: 500px;
+						font-weight: 900;
+					}
+				}
+			}
+		}
+	}
+}
