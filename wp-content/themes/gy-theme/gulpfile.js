@@ -26,7 +26,7 @@ function jsTask() {
 
 function watchTask() {
 	browserSync.init({
-		proxy: "http://localhost/sites/gy-business/",
+		proxy: "http://localhost/sites/gy-business/", //altere aqui para a pasta que está seu servidor local xampp ou outro
 		browser: "Chrome",
 		notify: false,
 	});

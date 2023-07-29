@@ -9,7 +9,7 @@ O conteúdo do site foi feito em Lorem Ipsum!
 
 
 ## Installation
-Para executar esta aplicação localmente, siga as instruções abaixo:
+Para executar esta aplicação localmente e começar a programar, siga as instruções abaixo:
 
 Clonar este repositório:
 
@@ -42,6 +42,8 @@ Inicie o servidor de desenvolvimento (não esqueça de estar com o seu servidor 
 ```bash
   gulp
 ```
+
+** Não esqueça de alterar o caminho do proxy do arquivo gulpfile.js, para o caminho em que seus sites rodam localmente no servidor XAMPP ou outro.
 
 ## Tecnologias utilizadas
 
