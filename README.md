@@ -72,3 +72,8 @@ Inicie o servidor de desenvolvimento: (não esqueça de estar com o seu servidor
 
 Se tiver algum comentário a fazer, entre em contato através do e-mail felip.godoy10@gmail.com
 
+
+## Usuário e senha Wordpress, acesso local
+Login: godoy
+Senha: godoyWebsiteGy1998@
+
