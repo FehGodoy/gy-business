@@ -37,7 +37,7 @@ Vá até a pasta que está o arquivo gulpfile.js:
   cd wp-content/themes/gy-theme
 ```
 
-Inicie o servidor de desenvolvimento (não esqueça de estar com o seu servidor 'ligado', seja ele o XAMPP ou outro ):
+Inicie o servidor de desenvolvimento: (não esqueça de estar com o seu servidor 'ligado', seja ele o XAMPP ou outro )
 
 ```bash
   gulp
